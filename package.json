@@ -1,6 +1,6 @@
 {
   "name": "semantic",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -8,14 +8,16 @@
     "type": "git"
   },
   "scripts": {
-    "semantic": "semantic-release",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "semantic-release": "^15.9.12",
-    "semantic-release-cli": "^4.0.7"
+    "semantic-release-cli": "^4.0.7",
+    "travis-deploy-once": "^5.0.7"
   }
 }
