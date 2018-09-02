@@ -24,6 +24,14 @@
     "travis-deploy-once": "^5.0.7"
   },
   "release": {
+    "verifyConditions": ["@semantic-release/changelog", "@semantic-release/npm", "@semantic-release/git"],
+    "prepare": [
+      {
+        "path": "@semantic-release/changelog",
+        "changelogFile": "CHANGELOG.md"
+      },
+      "@semantic-release/git"
+    ],
     "generateNotes": {
       "preset": "angular"
     },
