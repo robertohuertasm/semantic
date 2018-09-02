@@ -8,12 +8,14 @@
     "type": "git"
   },
   "scripts": {
+    "semantic": "semantic-release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "semantic-release": "^15.9.12"
+  "devDependencies": {
+    "semantic-release": "^15.9.12",
+    "semantic-release-cli": "^4.0.7"
   }
 }
