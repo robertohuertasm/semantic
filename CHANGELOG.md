@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/robertohuertasm/semantic/compare/v1.3.0...v1.3.1) (2018-09-02)
+
+
+### Bug Fixes
+
+* **business:** add new message ([9c3ea85](https://github.com/robertohuertasm/semantic/commit/9c3ea85))
+
 # [1.3.0](https://github.com/robertohuertasm/semantic/compare/v1.2.0...v1.3.0) (2018-09-02)
 
 
