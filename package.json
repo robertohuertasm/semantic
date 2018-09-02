@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "conventional-changelog-cli": "^2.0.5",
     "semantic-release": "^15.9.12",
     "semantic-release-cli": "^4.0.7",
     "travis-deploy-once": "^5.0.7"
